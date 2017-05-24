@@ -36,6 +36,18 @@ const FACT_TYPE = {
   CATS: 'cats'
 };
 
+const ANSWERS = new Set([
+  'Very good!',
+  'Makes sense!',
+  'Good idea!',
+  'What led you here?',
+  'What have you found so far?',
+  'Maaaaaan, I don\'t know.',
+  'What the hell?',
+  'Don\'t worry.',
+  'Just chill.'
+]);
+
 const HISTORY_FACTS = new Set([
   'Google was founded in 1998.',
   'Google was founded by Larry Page and Sergey Brin.',
