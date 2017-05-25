@@ -27,7 +27,17 @@ ANSWERS = [
   'Maaaaaan, I don\'t know.',
   'What the hell?',
   'Don\'t worry.',
-  'Just chill.'
+  'Just chill.',
+  'How could you do that?',
+  'Nice catch!',
+  'Go on!',
+  'Sounds interesting, please tell me the details!',
+  'You must be joking!',
+  'That\'s crazy',
+  'Ohhh, boy!',
+  'That makes sense!',
+  'You are awsome!',
+  'Shame on you!'
 ]
 
 @app.route('/webhook', methods=['POST'])
